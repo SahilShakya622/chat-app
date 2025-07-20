@@ -24,11 +24,11 @@ jobs:
 
       - name: Install Dependencies
         run: npm ci
-        working-directory: chat-frontend
+        working-directory: ./chat-frontend
 
       - name: Build
         run: npm run build
-        working-directory: chat-frontend
+        working-directory: ./chat-frontend
 
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
