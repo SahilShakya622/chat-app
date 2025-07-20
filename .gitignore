@@ -1,0 +1,32 @@
+# Root level
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+
+# Vite cache
+chat-frontend/.vite/
+chat-frontend/node_modules/
+chat-frontend/dist/
+chat-frontend/.env
+chat-frontend/.env.local
+chat-frontend/.DS_Store
+
+# VSCode
+.vscode/
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/crash.log
+terraform/override.tf
+terraform/override.tf.json
+terraform/*.tfplan
+terraform/*.tfvars
