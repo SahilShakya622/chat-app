@@ -44,8 +44,8 @@ Infrastructure ---> Terraform (IaC)
 ---
 
 ## ⚙️ Setup (Local Testing)
-### 1️⃣ Clone the repo
-```bash
+
+1️⃣ Clone the repo
 git clone https://github.com/SahilShakya622/chat-app.git
 cd chat-app
 
